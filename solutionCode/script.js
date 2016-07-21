@@ -1,9 +1,10 @@
+//This variable sets the user's value to rock. This value can be changed manually when testing in the console. 
 var userChoice = null;
+//Task3: To be completed after this game functions in the console. 
+    // Set userChoice to "null" and create a click handler that changes the value based on the item the user clicks on the HTML page.
 
 $(document).ready(function() {
-  //This variable sets the user's value to rock. This value can be changed manually when testing in the console.
-  //Task3: After you have your game functioning in the console
-    // Set userChoice to "none" and create a click handler that changes the value based on the item the user clicks on the HTML page.
+ 
     // Step 1: create a click funtion.
     $("#rock").click(function (){
       //Step 2 : After you create a click function you have to reset userChoice to rock,paper or scissors.
@@ -29,7 +30,8 @@ $(document).ready(function() {
     var choice = ["rock", "paper", "scissors"];
     //Step 2: Use the JavaScript Math function to generate a random whole number between 0 and 2.
     var randomPick = Math.floor(Math.random()*3);
-    //Step 3: Store the random selection from the ai in a variable called computerChoice.
+    //Step 3: Use this randomly generated number to pull a value from the array (eg myArray[ranomNum])
+              //return this new value
     return choice[randomPick];
   }
   var computerChoice = generateComputerChoice();

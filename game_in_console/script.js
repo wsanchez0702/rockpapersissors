@@ -1,11 +1,10 @@
-  var userChoice = "rock";
+  //This variable sets the user's value to rock. This value can be changed manually when testing in the console.
+var userChoice = "rock";
+//Task3: To be completed after this game functions in the console. 
+    // Set userChoice to "null" and create a click handler that changes the value based on the item the user clicks on the HTML page.
+
 
 $(document).ready(function() {
-  //This variable sets the user's value to rock. This value can be changed manually when testing in the console.
-  //Task3: After you have your game functioning in the console
-    // Set userChoice to "none" and create a click handler that changes the value based on the item the user clicks on the HTML page.
-
-
 
 // Task1: Task 1 randomly choose between 'rock', 'paper', or 'scissors' and assignd the selection of the computer to the variable computerChoice
     function generateComputerChoice(){
