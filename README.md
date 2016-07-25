@@ -6,4 +6,4 @@ Directions to complete this game can be found in the comments of the script.js f
 
 Complete tasks 1 & 2 to have a functional game in the console.  
 
-Complete later tasks to get a fullt functioning game.
+Complete later tasks to get a fully functioning game that operates on clicking events.
