@@ -4,6 +4,6 @@ Starter Code
 
 Directions to complete this game can be found in the comments of the script.js file.
 
-Complete tasks 1 & 2 to have a functional game in the console.  
+Complete Tasks 1 & 2 to have a functional game in the console.
 
-Complete later tasks to get a fully functioning game that operates on clicking events.
+Complete Tasks 3, 4, and 5 to get a fully functioning game that operates on click events.

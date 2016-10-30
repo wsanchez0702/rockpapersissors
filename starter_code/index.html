@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-      <title>
+    <head>
+        <title>
         <!-- Enter a title for your game here -->
-      </title>
-      <!-- Link CSS here -->
-      <link type='text/css' rel='stylesheet' href='style.css' />
-      <!-- Link JQuery here -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-      <!-- Link script.js here -->
-      <script src='script.js'></script>
-  </head>
+        </title>
+        <link type='text/css' rel='stylesheet' href='style.css' />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src='script.js'></script>
+    </head>
 
-  <body>
+    <body>
 
-    <div class="container">
-      <div id="rock" class="token">ROCK</div>
-      <div id="paper" class="token">PAPER</div>
-      <!-- Create Scissors option here -->
-      <div id="scissors" class="token">SCISSORS</div>
-    </div>
+        <div class="container">
+            <div class="choice" id="rock">rock</div>
+            <div class="choice" id="paper">paper</div>
+            <div class="choice" id="scissors">scissors</div>
 
-    <div class="container">
-      <div id="message">
-          Click on your selection
-      </div>
-      <div id="result"></div>
-    </div>
+            <p>
+                <strong>Computer's choice:</strong><br/>
+                <span id="computer-choice"></span>
+            </p>
+            <p>
+                <strong>Winner:</strong><br/>
+                <span id="winer"></span>
+            </p>
+
+        </div>
 
   </body>
 
