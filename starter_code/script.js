@@ -14,8 +14,8 @@ var generateComputerChoice = function () {
 // Task 2: Create a function that compares the userChoice and the computerChoice
 // to decide who won.
 var pickWinner = function (userChoice, computerChoice) {
-  console.log("user choice: " + userChoice);
-  console.log("computer choice: " + computerChoice);
+    console.log("user choice: " + userChoice);
+    console.log("computer choice: " + computerChoice);
     // Task 2, Step 1: Create an "if/else if/else" statement that compares the
     // userChoice and computerChoice under any possible game outcome.
 
